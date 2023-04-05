@@ -25,18 +25,7 @@ class AllElement:  # общий класс для хранения списко�
     def add_typedef(self, typ: Typedef):
         self.typedef_list.append(typ)
 
-    # функции возвращения списков элементов
-
-    def out_funct(self):
-        return self.function_list
-
-    def out_define(self):
-        return self.define_list
-
-    def out_typedef(self):
-        return self.typedef_list
-
-    # функции вывода из спсиков по индексу
+    # функции вывода из списиков по индексу
 
     def index_funct(self, index_fun: int) -> Function:
         ...
